@@ -1,12 +1,10 @@
 
+
 import BarChart from 'components/BarChart';
 import DataTable from 'components/DataTable';
 import DonutChart from 'components/DonutChart';
 import Footer from 'components/Footer';
 import NavBar from 'components/NavBar';
-import eliel from 'components/NavBar';
-import React from 'react';
-
 
 function App() {
   return (
@@ -21,7 +19,7 @@ function App() {
           </div>
           <div className="col-sm-6">
             <h5 className="text-center text-secondary"> Todas vendas </h5>
-            <DonutChart/> 
+            <DonutChart />
           </div>
         </div>
 
