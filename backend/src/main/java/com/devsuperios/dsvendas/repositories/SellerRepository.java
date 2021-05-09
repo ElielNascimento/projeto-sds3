@@ -9,7 +9,7 @@ import com.devsuperios.dsvendas.entities.Seller;
 public interface SellerRepository extends JpaRepository<Seller, Long> {
 
 	List<Seller> findAll();
-
+    
 	;
 	
 	
