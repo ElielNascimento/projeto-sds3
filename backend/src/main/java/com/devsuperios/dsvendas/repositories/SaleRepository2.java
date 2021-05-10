@@ -7,11 +7,7 @@ import com.devsuperios.dsvendas.entities.Sale;
 public interface SaleRepository2 extends JpaRepository<Sale, Long> {
 
     
-	;
 	
-	
-	
-	
-	
+		
 
 }

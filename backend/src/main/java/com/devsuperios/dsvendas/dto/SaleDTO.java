@@ -11,14 +11,10 @@ public class SaleDTO {
 	private Double amount;
 	private LocalDate date;
 	
-	private SellerDTO seller;
+	private SellerDTO seller ;
 	
-	public  SaleDTO ( ) {
-		
-	}
 
 	public SaleDTO(Long id, Integer visited, Integer deals, Double amount, LocalDate date, SellerDTO seller) {
-		super();
 		this.id = id;
 		this.visited = visited;
 		this.deals = deals;
